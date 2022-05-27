@@ -28,7 +28,7 @@ namespace Mango.Web.Services
             });
         }
 
-        public async Task<T> DeleteProductAsync<T>(int id, string token) 
+        public async Task<T> DeleteProductAsync<T>(int id, string token)
         {
             return await this.SendAsync<T>(new ApiRequest()
             {
